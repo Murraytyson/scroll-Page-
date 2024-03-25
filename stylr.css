@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+  }
+  
+  .page:nth-child(1) {
+    background-color: rgb(6, 188, 249);
+  }
+  
+  .page:nth-child(2) {
+    background-color: rgb(248, 7, 128);
+  }
+  
+  .page:nth-child(3) {
+    background-color: rgb(2, 244, 42);
+  }
+
+  .page:nth-child(4) {
+    background-color: rgb(196, 249, 7);
+  }
